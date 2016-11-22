@@ -73,7 +73,7 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png
+https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png<br>
 /*Criação da Tabela Música*/<br>
 CREATE TABLE MUSICA (<br>
 COD_Musica INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,<br>
