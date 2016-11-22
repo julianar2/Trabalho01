@@ -72,6 +72,30 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+/*Criação da Tabela Música*/<br>
+CREATE TABLE MUSICA (<br>
+COD_Musica INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,<br>
+Titulo VARCHAR(25), <br>
+LinkYoutube VARCHAR(45)<br>
+);<br>
+
+/* Inserção de dados na tabela Música */  <br>
+INSERT INTO MUSICA (COD_Musica, LinkYoutube, Titulo) VALUES <br>
+(1, 'https://www.youtube.com/watch?v=IQTV6iqhmWU', 'Refém'),<br>
+(2, 'https://www.youtube.com/watch?v=o32X_DAknMM', 'Num Corpo Só'),<br>
+(3, 'https://www.youtube.com/watch?v=_b-FdGeNcYo', '50 Reais'),<br>
+(4, 'https://www.youtube.com/watch?v=1-wJdGLlRNo', 'Trovão'),<br>
+(5, 'https://www.youtube.com/watch?v=uhMa7S0B7e0', 'Infinita Highway'),<br>
+(6, 'https://www.youtube.com/watch?v=2C_D50H3jTs', 'Déjà Vu'),<br>
+(7, 'https://www.youtube.com/watch?v=cDZEtcMqVuc', 'Refém'),<br>
+(8, 'https://www.youtube.com/watch?v=Tu4sXwpY6S0', 'Andei Só'),<br>
+(9, 'https://www.youtube.com/watch?v=FGViL3CYRwg', 'Show Das Poderosas'),<br>
+(10, 'https://www.youtube.com/watch?v=KwreBUSdiLk', 'Até Ex Duvida');<br>
+
+/* Consulta de Dados presentes na Tabela Música */<br>
+select * from MUSICA;<br>
+
 https://github.com/julianar2/Trabalho01/blob/master/Cidade.jpg <br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
