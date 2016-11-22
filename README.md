@@ -1,10 +1,10 @@
 # TRABALHO 01
-Trabalho desenvolvido durante a disciplina de BD
+Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informática do Ifes/Serra.
 
 #Sumário
 
 ###1	COMPONENTES<br>
-Integrantes do grupo<br>
+Juliana Rangel Roque<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
@@ -73,7 +73,6 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png<br>
 /*Criação da Tabela Música*/<br>
 CREATE TABLE MUSICA (<br>
 COD_Musica INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,<br>
@@ -96,6 +95,36 @@ INSERT INTO MUSICA (COD_Musica, LinkYoutube, Titulo) VALUES <br>
 
 /* Consulta de Dados presentes na Tabela Música */<br>
 select * from MUSICA;<br>
+https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png<br>
+
+/* Criação  da Tabela Usuário */<br>
+CREATE TABLE USUARIO (<br>
+COD_Usuario INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,<br>
+Login VARCHAR(25),<br>
+Senha VARCHAR(8),<br>
+CPF VARCHAR(11),<br>
+Sexo VARCHAR(9),<br>
+COD_Genero INTEGER NOT NULL,<br>
+COD_endereco INTEGER NOT NULL<br>
+); <br>
+
+/* Inserção de dados na tabela Usuário */  <br>
+INSERT INTO USUARIO (COD_Usuario, Login, Senha, CPF, Sexo, COD_Genero, COD_endereco) VALUES <br>
+(1, 'luanabgn@live.com', '12345678', '00000000000', 'Feminino', 5, 4),<br>
+(2, 'julianar2@gmail.com', '23456781', '11111111111', 'Feminino', 9, 5),<br>
+(3, 'picole@picole.com.br', '34567812', '22222222222', 'Masculino', 5, 6),<br>
+(4, 'sidnie@amaro.com', '45678123', '33333333333', 'Masculino', 1, 8),<br>
+(5, 'liraflavio@berklee.com', '56781234', '44444444444', 'Masculino', 1, 3),<br>
+(6, 'liraflavio@berklee.com', '67812345', '55555555555', 'Masculino', 1, 10),<br>
+(7, 'eduardomer@berklee.com', '78123456', '66666666666', 'Masculino', 7, 1),<br>
+(8, 'pedrofellipe@gmail.com', '81234567', '77777777777', 'Masculino', 8, 9),<br>
+(9, 'danventura@hotmail.com', '98765432', '88888888888', 'Masculino', 4, 7),<br>
+(10, 'reis.matheus@yahoo.com', '01234567', '99999999999', 'Masculino', 3, 2);<br>
+
+/* Consulta de Dados presentes na Tabela Usuário */<br>
+select * from USUARIO;<br>
+https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png
+
 
 https://github.com/julianar2/Trabalho01/blob/master/Cidade.jpg <br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
