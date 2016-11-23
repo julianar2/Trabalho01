@@ -23,7 +23,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/conceitual.jpg)
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -38,9 +38,44 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
+    pode possuir para cada departamento mais de uma localização... 
+    b) justifique!
+    a) CPF: em nosso projeto optamos por um campo chave, pois cada usário possui um número diferente.<br>
+    b) Nome: em nosso projeto optamos por um campo comum, exceto na tabela usuário que é um campo multivalorado pois o usuái pode ter nome completo, artistíco e apelido.<br> 
+    C) Sexo: em nosso projeto optamos por um campo comum, pois pode haver o mesmo sexo para mais de um usuário.<br>
+    d) Login: em nosso projeto optamos por um campo comum, pois o campo código é de mais fácil filtragem.<br>
+    e) Senha: em nosso projeto optamos por um campo comum, pois pode haver a mesma senha pra mais de um login.<br>
+    f) Tipo de Usuário: em nosso projeto optamos por um campo comum, pois pode haver o mesmo tipo de usuário pra mais de um usuário.<br>
+    g) Código: em nosso projeto optamos por um campo chave, por ser único.<br>
+    h) Endereço: em nosso projeto optamos por um campo composto, pois o endereço é composto por vários atributos.<br>
+    i) Link Youtube: em nosso projeto optamos por um campo comum, pois foi preferível o campo código como chave. Pois o campo Link Youtube direciona apenas o caminho da música no Youtube.<br>
 
 ####5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
+    USUÁRIO: Tabela que armazena as informações relativas aos usuários.<br>
+        CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+        Nome:campo que armazena o nome completo, nome artísitco e/ou apelido do usuário.<br>
+        Contato:campo que armazena os contatos e os tipos de contatos de cada usuário.<br>
+        Sexo:campo que armazena o sexo do usuário.<br>
+        Login:campo que armazena o login do usuário.<br>
+        Senha:campo que armazena a senha do usuário.<br>
+        Tipo de Usuário:campo que armazena o tipo do usuário.<br>
+        Código da Música:campo que armazena o código da música enviada pelo usuário.<br>
+        Endereço:campo que armazena as informações completa do endereço do usuário.<br>
+    MÚSICA: Tabela que armazena as informações relativas as músicas.<br>
+        Código da Música:campo que armazena o código da música.<br>
+        Nome da Música:campo que armazena o nome da música.<br>
+        Link Youtube:campo que armazena o link do Youtube.<br>
+    CANTOR:Tabela que armazena as informações relativas aos cantores.<br>
+        Código do Cantor:campo que armazena o código do cantor.<br>
+        Nome do Cantor:campo que armazena o nome do cantor.<br>
+    COMPOSITOR:Tabela que armazena as informações relativas aos compositores.<br>
+        Código do Compositor:campo que armazena o código do compositor.<br>
+        Nome do Compositor:campo que armazena o nome do compositor.<br>
+    GÊNERO:Tabela que armazena as informações relativas aos gêneros.<br>
+        Código do gênero:campo que armazena o código do gênero.<br>
+        Nome do Compositor:campo que armazena o nome do gênero.<br>
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
@@ -48,6 +83,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ###6	MODELO LÓGICO<br>
+![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/logico.jpg)<br>
+
+
 ###7	MODELO FÍSICO<br>
 
         Entrega até este ponto em 25/10/2016
@@ -672,6 +710,18 @@ select * from rua where cep like '29%';,br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
+/*ATUALIZAÇÃO E EXCLUSÃO DE DADOS*/<br>
+update nome set apelido = 'Lu' where nome_pk = 1;<br>
+update nome set NomeArtistico = 'Luemily' where apelido = 'Lu';<br>
+update nome set NomeArtistico = 'Juliana Roque' where COD_Usuario_FK = 2;<br>
+update nome set NomeArtistico = 'Luiz Picolé' where COD_Usuario_FK = 3;<br>
+update nome set nomecompleto = 'Luiz Claudio Picolé' where COD_Usuario_FK = 3;<br>
+select * from nome; ,br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.png)<br>
+delete from nome where nome_pk = 1;<br>
+select * from nome; <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.png)<br>
+
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
@@ -686,8 +736,11 @@ select * from rua where cep like '29%';,br>
 
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
+
+
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo.
+Na utilização do MySql é que conseguir enxergar e acertar os erros cometidos (seja de digitação, lógica) <br> 
 
         Entrega final em 22/11/2016
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
