@@ -5,12 +5,13 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 
 ###1	COMPONENTES<br>
 Juliana Rangel Roque<br>
+Luana Emiliano Ferreira<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras e deixar acessível os nomes dos compositores de suas respectivas músicas. O projeto chama-se Músicas Brasileiras. Para ter acesso ao sistema os usuários se cadastram, e os dados solicitados são: cpf, e-mail, senha, contatos, endereço, gênero musical favorito/principal, data de nascimento, tipo de usuário, podendo ser usuário padrão, músico instrumentista, cantor ou compositor; e sexo.  <br>
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+No sistema Músicas Brasileiras os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou serdirecionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
@@ -95,7 +96,7 @@ INSERT INTO MUSICA (COD_Musica, LinkYoutube, Titulo) VALUES <br>
 
 /* Consulta de Dados presentes na Tabela Música */<br>
 select * from MUSICA;<br>
-https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png)<br>
 
 /* Criação  da Tabela Usuário */<br>
 CREATE TABLE USUARIO (<br>
@@ -665,12 +666,16 @@ select * from nome where nomecompleto like '%amaro%';<br>
 https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png<br>
 select * from nome where nomecompleto like '%amaro%' and apelido = 'gringo';<br>
 https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png<br>
+select * from rua where cep like '29%';,br>
+https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png<br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+
+
         Entrega até este ponto em 08/11/2016
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
@@ -680,6 +685,7 @@ https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png<br
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo.
 
         Entrega final em 22/11/2016
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
