@@ -125,8 +125,89 @@ INSERT INTO USUARIO (COD_Usuario, Login, Senha, CPF, Sexo, COD_Genero, COD_ender
 select * from USUARIO;<br>
 https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png
 
+/* Criação  da Tabela Tipo de Usuário */
+CREATE TABLE TipoDeUsuario (
+COD_Tipo INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+DescricaoTipo VARCHAR(20)
+);
 
-https://github.com/julianar2/Trabalho01/blob/master/Cidade.jpg <br>
+/* Inserção de dados na tabela Tipo de Tipo de Usuário */  
+INSERT INTO TipoDeUsuario (COD_Tipo, DescricaoTipo) VALUES 
+(1, 'Padrao'),
+(2, 'Cantor'),
+(3, 'Compositor'),
+(4, 'Instrumentista');
+
+/* Consulta de Dados presentes na Tabela TipoDeUsuario */
+select * from TipoDeUsuario;
+https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Tipo%20de%20Usuario.png
+
+/* Criação  da Tabela Cantor */
+CREATE TABLE CANTOR (
+COD_Cantor INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NomeCantor VARCHAR(30)
+);
+
+/* Inserção de dados na tabela Tipo de Cantor */  
+INSERT INTO CANTOR (COD_Cantor, NomeCantor) VALUES
+(1, 'Dilsinho'),
+(2, 'Maria Rita'),
+(3, 'Naiara Azevedo'),
+(4, 'Zeca Pagodinho'),
+(5, 'Engenheiros do Hawaii'),
+(6, 'Pitty'),
+(7, 'Gustavo Lima'),
+(8, 'Natiruts'),
+(9, 'Anitta'),
+(10, 'Ludmila');
+
+/* Consulta de Dados presentes na Tabela Cantor */
+select * from CANTOR;
+https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png
+
+/* Criação  da Tabela Compositor */
+CREATE TABLE COMPOSITOR (
+COD_Compositor INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NomeCompositor VARCHAR(30)
+);
+
+/* Inserção de dados na tabela Compositor */  
+INSERT INTO COMPOSITOR (COD_Compositor, NomeCompositor) VALUES
+(1, 'Pedro Felipe'),
+(2, 'Picolé'),
+(3, 'Arlindo Cruz'),
+(4, 'Dilsinho'),
+(5, 'Thiago Silva'),
+(6, 'Munir Trad'),
+(7, 'Dudu Nobre'),
+(8, 'Thiaguinho'),
+(9, 'Anitta'),
+(10, 'Zeca Pagodinho');
+
+/* Consulta de Dados presentes na Tabela Compositor */
+select * from COMPOSITOR;
+https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png
+
+/* Criação  da Tabela Tipo Contato */
+CREATE TABLE TipoContato (
+COD_Tipo INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+DescricaoTipo VARCHAR(15)
+);
+
+/* Inserção de dados na tabela Tipo de Tipo Contato */  
+INSERT INTO TipoContato (COD_Tipo, DescricaoTipo) VALUES 
+(1, 'Email'),
+(2, 'Telefone'),
+(3, 'Celular'),
+(4, 'WhatsApp'),
+(5, 'Facebook');
+
+/* Consulta de Dados presentes na Tabela TipoContato */
+select * from TipoContato;
+https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png
+
+
+ <br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
