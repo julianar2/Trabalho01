@@ -28,8 +28,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 ####5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+   [Grupo01]: Estêvão Segatto e Mathues Lopes 
+   [Grupo02]: Kelvin Lehrback e Vinicius Martins
 
 ####5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
@@ -60,6 +60,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
+        Materiais da Disciplina de Bando de Dados
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
@@ -124,7 +125,7 @@ INSERT INTO USUARIO (COD_Usuario, Login, Senha, CPF, Sexo, COD_Genero, COD_ender
 
 /* Consulta de Dados presentes na Tabela Usuário */<br>
 select * from USUARIO;<br>
-https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png)<br>
 
 /* Criação  da Tabela Tipo de Usuário */<br>
 CREATE TABLE TipoDeUsuario (<br>
@@ -141,7 +142,7 @@ INSERT INTO TipoDeUsuario (COD_Tipo, DescricaoTipo) VALUES <br>
 
 /* Consulta de Dados presentes na Tabela TipoDeUsuario */<br>
 select * from TipoDeUsuario;<br>
-https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Tipo%20de%20Usuario.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Tipo%20de%20Usuario.png)<br>
 
 /* Criação  da Tabela Cantor */<br>
 CREATE TABLE CANTOR (<br>
@@ -164,7 +165,7 @@ INSERT INTO CANTOR (COD_Cantor, NomeCantor) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Cantor */<br>
 select * from CANTOR;<br>
-https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png)<br>
 
 /* Criação  da Tabela Compositor */<br>
 CREATE TABLE COMPOSITOR (<br>
@@ -187,7 +188,7 @@ INSERT INTO COMPOSITOR (COD_Compositor, NomeCompositor) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Compositor */<br>
 select * from COMPOSITOR;<br>
-https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png)<br>
 
 /* Criação  da Tabela Tipo Contato */<br>
 CREATE TABLE TipoContato (<br>
@@ -205,7 +206,7 @@ INSERT INTO TipoContato (COD_Tipo, DescricaoTipo) VALUES <br>
 
 /* Consulta de Dados presentes na Tabela TipoContato */<br>
 select * from TipoContato;<br>
-https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png)<br>
 
 /* Criação  da Tabela Contato */<br>
 CREATE TABLE Contato (<br>
@@ -230,7 +231,7 @@ INSERT INTO Contato (COD_Contato, COD_Tipo, DescricaoContato) VALUES <br>
 
 /* Consulta de Dados presentes na Tabela Contato */<br>
 select * from Contato;<br>
-https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Contato.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Contato.png)<br>
 
 /* Criação  da Tabela Gênero */<br>
 CREATE TABLE GENERO (<br>
@@ -253,7 +254,7 @@ INSERT INTO GENERO (COD_Genero, NomeDoGenero) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Gênero */<br>
 select * from GENERO;<br>
-https://github.com/julianar2/Trabalho01/blob/master/08%20-%20Genero.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/08%20-%20Genero.png)<br>
 
 /* Criação  da Tabela Estado */<br>
 CREATE TABLE ESTADO (<br>
@@ -276,7 +277,7 @@ INSERT INTO ESTADO (COD_estado, Descricao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Estado */<br>
 select * from ESTADO;<br>
-https://github.com/julianar2/Trabalho01/blob/master/09%20-%20Estado.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/09%20-%20Estado.png)<br>
 
 /* Criação  da Tabela País */<br>
 CREATE TABLE PAIS (<br>
@@ -299,7 +300,7 @@ INSERT INTO PAIS (COD_pais, Descricao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela País */<br>
 select * from PAIS;<br>
-https://github.com/julianar2/Trabalho01/blob/master/10%20-%20Pais.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/10%20-%20Pais.png)<br>
 
 /* Criação  da Tabela CEP */<br>
 CREATE TABLE CEP (<br>
@@ -321,7 +322,7 @@ INSERT INTO CEP (cep) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela CEP */<br>
 select * from CEP;<br>
-https://github.com/julianar2/Trabalho01/blob/master/11%20-%20Cep.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/11%20-%20Cep.png)<br>
 
 /* Criação  da Tabela Bairro */<br>
 CREATE TABLE BAIRRO (<br>
@@ -344,7 +345,7 @@ INSERT INTO BAIRRO (COD_bairro, Descricao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Bairro */<br>
 select * from BAIRRO;<br>
-https://github.com/julianar2/Trabalho01/blob/master/12%20-%20Bairro.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/12%20-%20Bairro.png)<br>
 
 /* Criação  da Tabela Cidade */<br>
 CREATE TABLE CIDADE (<br>
@@ -367,7 +368,7 @@ INSERT INTO CIDADE (COD_cidade, Descricao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Cidade */<br>
 select * from CIDADE;<br>
-https://github.com/julianar2/Trabalho01/blob/master/13%20-%20Cidade.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/13%20-%20Cidade.png)<br>
 
 /* Criação  da Tabela Rua */<br>
 CREATE TABLE Rua (<br>
@@ -392,7 +393,7 @@ INSERT INTO Rua (COD_rua, Descricao, cep) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Rua */<br>
 select * from Rua;<br>
-https://github.com/julianar2/Trabalho01/blob/master/14%20-%20Rua.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/14%20-%20Rua.png)<br>
 
 /* Criação  da Tabela Endereço */<br>
 CREATE TABLE ENDERECO (<br>
@@ -423,7 +424,7 @@ INSERT INTO ENDERECO (COD_endereco, COD_pais, COD_estado, COD_cidade, COD_bairro
 
 /* Consulta de Dados presentes na Tabela Endereço */<br>
 select * from ENDERECO;<br>
-https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Endereco.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Endereco.png)<br>
 
 /* Criação  da Tabela Nome */<br>
 CREATE TABLE Nome (<br>
@@ -450,7 +451,7 @@ INSERT INTO Nome (Nome_PK, COD_Usuario_FK, NomeCompleto, NomeArtistico, Apelido)
 
 /* Consulta de Dados presentes na Tabela Nome */<br>
 select * from Nome;<br>
-https://github.com/julianar2/Trabalho01/blob/master/16%20-%20Nome.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/16%20-%20Nome.png)<br>
 
 /* Criação  da Tabela Favorita */<br>
 CREATE TABLE FAVORITA (<br>
@@ -475,7 +476,7 @@ INSERT INTO FAVORITA (COD_Musica, COD_Usuario) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Favorita */<br>
 select * from FAVORITA;<br>
-https://github.com/julianar2/Trabalho01/blob/master/17%20-%20Favorita.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/17%20-%20Favorita.png)<br>
 
 /* Criação  da Tabela ENVIA */<br>
 CREATE TABLE ENVIA (<br>
@@ -502,7 +503,7 @@ INSERT INTO ENVIA (COD_Envio, DataDeEnvio, COD_Musica, COD_Usuario) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Envia */<br>
 select * from ENVIA;<br>
-https://github.com/julianar2/Trabalho01/blob/master/18%20-%20Envia.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/18%20-%20Envia.png)<br>
 
 /* Criação  da Tabela Possui */<br>
 CREATE TABLE POSSUI (<br>
@@ -527,7 +528,7 @@ INSERT INTO POSSUI (COD_Usuario, COD_Tipo) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Possui */<br>
 select * from POSSUI;<br>
-https://github.com/julianar2/Trabalho01/blob/master/19%20-%20Possui.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/19%20-%20Possui.png)<br>
 
 /* Criação  da Tabela Pertence */<br>
 CREATE TABLE PERTENCE (<br>
@@ -552,7 +553,7 @@ INSERT INTO PERTENCE (COD_Musica, COD_Genero) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Pertence */<br>
 select * from PERTENCE;<br>
-https://github.com/julianar2/Trabalho01/blob/master/20%20-%20Pertence.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/20%20-%20Pertence.png)<br>
 
 /* Criação  da Tabela Intterpretada */<br>
 CREATE TABLE INTERPRETADA (<br>
@@ -577,7 +578,7 @@ INSERT INTO INTERPRETADA (COD_Musica, COD_Cantor, Gravacao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Interpretada */<br>
 select * from INTERPRETADA;<br>
-https://github.com/julianar2/Trabalho01/blob/master/21%20-%20Interpretada.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/21%20-%20Interpretada.png)<br>
 
 /* Criação  da Tabela Composta */<br>
 CREATE TABLE COMPOSTA (<br>
@@ -602,7 +603,7 @@ INSERT INTO COMPOSTA (COD_Musica, COD_Compositor, DataDaComposicao) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela COMPOSTA */<br>
 select * from COMPOSTA;<br>
-https://github.com/julianar2/Trabalho01/blob/master/22%20-%20Composta.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/22%20-%20Composta.png)<br>
 
 /* Criação  da Tabela Contem */<br>
 CREATE TABLE CONTEM (<br>
@@ -627,49 +628,50 @@ INSERT INTO CONTEM (COD_Usuario, COD_Contato) VALUES<br>
 
 /* Consulta de Dados presentes na Tabela Contem */<br>
 select * from CONTEM;<br>
-https://github.com/julianar2/Trabalho01/blob/master/23%20-%20Contem.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/23%20-%20Contem.png)<br>
 
  <br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 /*CONSULTAS DAS TABELAS COM FILTROS WHERE*/<br>
 select * from usuario where sexo = 'feminino';<br>
-https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%201.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%201.png)<br>
 select * from nome where apelido is not null;<br>
-https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%202.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%202.png)<br>
 select * from contato where descricaocontato = 'facebook'; <br>
-https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%203.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%203.png)<br>
 select * from contato where cod_tipo = 4;<br>
-https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%204.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%204.png)<br>
 select * from envia where cod_usuario = 2;<br>
-https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%205.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%205.png)<br>
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
 /*CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS*/<br>
 select * from endereco where COD_pais = 2 and COD_estado = 7;<br>
-https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%201.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%201.png)<br>
 select * from interpretada where Gravacao > "01-02-2012";<br>
-https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%202.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%202.png)<br>
 select * from endereco where cod_pais = 5 or COD_estado = 1;<br>
-https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%203.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%203.png)<br>
 select LinkYoutube from musica where Titulo ='Refém';<br>
-https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%204.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%204.png)<br>
 select CPF from usuario where COD_Genero = 1;<br>
-https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%205.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%205.png)<br>
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 /*CONSULTAS QUE USAM OPERADORES LIKE*/<br>
 select * from nome where nomecompleto like 'j%';<br>
-https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.png)<br>
 select * from nome where nomecompleto like '%amaro%';<br>
-https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png)<br>
 select * from nome where nomecompleto like '%amaro%' and apelido = 'gringo';<br>
-https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png)<br>
 select * from rua where cep like '29%';,br>
-https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png)<br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
