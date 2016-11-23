@@ -88,7 +88,553 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ###7	MODELO FÍSICO<br>
 
-        Entrega até este ponto em 25/10/2016
+     /* Exclui a Base de Dados: MusicaBrasileira caso ela já exista. */
+DROP DATABASE IF EXISTS MusicaBrasileira;
+
+/* Criação da Base de Dados: MusicaBrasileira */
+create database MusicaBrasileira;
+
+/* Determina a base de dados que será utilizada */
+use MusicaBrasileira;
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Criação da Tabela Música*/
+CREATE TABLE MUSICA (
+COD_Musica INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Titulo VARCHAR(25), 
+LinkYoutube VARCHAR(45)
+);
+
+/* Inserção de dados na tabela Música */  
+INSERT INTO MUSICA (COD_Musica, LinkYoutube, Titulo) VALUES 
+(1, 'https://www.youtube.com/watch?v=IQTV6iqhmWU', 'Refém'),
+(2, 'https://www.youtube.com/watch?v=o32X_DAknMM', 'Num Corpo Só'),
+(3, 'https://www.youtube.com/watch?v=_b-FdGeNcYo', '50 Reais'),
+(4, 'https://www.youtube.com/watch?v=1-wJdGLlRNo', 'Trovão'),
+(5, 'https://www.youtube.com/watch?v=uhMa7S0B7e0', 'Infinita Highway'),
+(6, 'https://www.youtube.com/watch?v=2C_D50H3jTs', 'Déjà Vu'),
+(7, 'https://www.youtube.com/watch?v=cDZEtcMqVuc', 'Refém'),
+(8, 'https://www.youtube.com/watch?v=Tu4sXwpY6S0', 'Andei Só'),
+(9, 'https://www.youtube.com/watch?v=FGViL3CYRwg', 'Show Das Poderosas'),
+(10, 'https://www.youtube.com/watch?v=KwreBUSdiLk', 'Até Ex Duvida');
+
+/* Consulta de Dados presentes na Tabela Música */
+select * from MUSICA;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Usuário */
+CREATE TABLE USUARIO (
+COD_Usuario INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Login VARCHAR(25),
+Senha VARCHAR(8),
+CPF VARCHAR(11),
+Sexo VARCHAR(9),
+COD_Genero INTEGER NOT NULL,
+COD_endereco INTEGER NOT NULL
+); 
+
+/* Inserção de dados na tabela Usuário */  
+INSERT INTO USUARIO (COD_Usuario, Login, Senha, CPF, Sexo, COD_Genero, COD_endereco) VALUES 
+(1, 'luanabgn@live.com', '12345678', '00000000000', 'Feminino', 5, 4),
+(2, 'julianar2@gmail.com', '23456781', '11111111111', 'Feminino', 9, 5),
+(3, 'picole@picole.com.br', '34567812', '22222222222', 'Masculino', 5, 6),
+(4, 'sidnie@amaro.com', '45678123', '33333333333', 'Masculino', 1, 8),
+(5, 'liraflavio@berklee.com', '56781234', '44444444444', 'Masculino', 1, 3),
+(6, 'liraflavio@berklee.com', '67812345', '55555555555', 'Masculino', 1, 10),
+(7, 'eduardomer@berklee.com', '78123456', '66666666666', 'Masculino', 7, 1),
+(8, 'pedrofellipe@gmail.com', '81234567', '77777777777', 'Masculino', 8, 9),
+(9, 'danventura@hotmail.com', '98765432', '88888888888', 'Masculino', 4, 7),
+(10, 'reis.matheus@yahoo.com', '01234567', '99999999999', 'Masculino', 3, 2);
+
+/* Consulta de Dados presentes na Tabela Usuário */
+select * from USUARIO;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Tipo de Usuário */
+CREATE TABLE TipoDeUsuario (
+COD_Tipo INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+DescricaoTipo VARCHAR(20)
+);
+
+/* Inserção de dados na tabela Tipo de Tipo de Usuário */  
+INSERT INTO TipoDeUsuario (COD_Tipo, DescricaoTipo) VALUES 
+(1, 'Padrao'),
+(2, 'Cantor'),
+(3, 'Compositor'),
+(4, 'Instrumentista');
+
+/* Consulta de Dados presentes na Tabela TipoDeUsuario */
+select * from TipoDeUsuario;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Cantor */
+CREATE TABLE CANTOR (
+COD_Cantor INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NomeCantor VARCHAR(30)
+);
+
+/* Inserção de dados na tabela Tipo de Cantor */  
+INSERT INTO CANTOR (COD_Cantor, NomeCantor) VALUES
+(1, 'Dilsinho'),
+(2, 'Maria Rita'),
+(3, 'Naiara Azevedo'),
+(4, 'Zeca Pagodinho'),
+(5, 'Engenheiros do Hawaii'),
+(6, 'Pitty'),
+(7, 'Gustavo Lima'),
+(8, 'Natiruts'),
+(9, 'Anitta'),
+(10, 'Ludmila');
+
+/* Consulta de Dados presentes na Tabela Cantor */
+select * from CANTOR;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Compositor */
+CREATE TABLE COMPOSITOR (
+COD_Compositor INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NomeCompositor VARCHAR(30)
+);
+
+/* Inserção de dados na tabela Compositor */  
+INSERT INTO COMPOSITOR (COD_Compositor, NomeCompositor) VALUES
+(1, 'Pedro Felipe'),
+(2, 'Picolé'),
+(3, 'Arlindo Cruz'),
+(4, 'Dilsinho'),
+(5, 'Thiago Silva'),
+(6, 'Munir Trad'),
+(7, 'Dudu Nobre'),
+(8, 'Thiaguinho'),
+(9, 'Anitta'),
+(10, 'Zeca Pagodinho');
+
+/* Consulta de Dados presentes na Tabela Compositor */
+select * from COMPOSITOR;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Tipo Contato */
+CREATE TABLE TipoContato (
+COD_Tipo INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+DescricaoTipo VARCHAR(15)
+);
+
+/* Inserção de dados na tabela Tipo de Tipo Contato */  
+INSERT INTO TipoContato (COD_Tipo, DescricaoTipo) VALUES 
+(1, 'Email'),
+(2, 'Telefone'),
+(3, 'Celular'),
+(4, 'WhatsApp'),
+(5, 'Facebook');
+
+/* Consulta de Dados presentes na Tabela TipoContato */
+select * from TipoContato;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Contato */
+CREATE TABLE Contato (
+COD_Contato INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+COD_Tipo INTEGER,
+DescricaoContato VARCHAR(10),
+FOREIGN KEY(COD_Tipo) REFERENCES TipoContato (COD_Tipo)
+);
+
+/* Inserção de dados na tabela Contato */  
+INSERT INTO Contato (COD_Contato, COD_Tipo, DescricaoContato) VALUES 
+(1, 1, 'Email'),
+(2, 2, 'Telefone'),
+(3, 3, 'Celular'),
+(4, 4, 'WhatsApp'),
+(5, 5, 'Facebook'),
+(6, 1, 'Email'),
+(7, 2, 'Telefone'),
+(8, 3, 'Celular'),
+(9, 4, 'WhatsApp'),
+(10, 5, 'Facebook');
+
+/* Consulta de Dados presentes na Tabela Contato */
+select * from Contato;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Gênero */
+CREATE TABLE GENERO (
+COD_Genero INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NomeDoGenero VARCHAR(10)
+);
+
+/* Inserção de dados na tabela Gênero */  
+INSERT INTO GENERO (COD_Genero, NomeDoGenero) VALUES
+(1, 'MPB'),
+(2, 'Funk'),
+(3, 'Sertanejo'),
+(4, 'Axé'),
+(5, 'Pagode'),
+(6, 'Gospel'),
+(7, 'Rock'),
+(8, 'Reggae'),
+(9, 'Bossa Nova'),
+(10, 'Forró');
+
+/* Consulta de Dados presentes na Tabela Gênero */
+select * from GENERO;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Estado */
+CREATE TABLE ESTADO (
+COD_estado INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Descricao VARCHAR(30)
+);
+
+/* Inserção de dados na tabela Estado */  
+INSERT INTO ESTADO (COD_estado, Descricao) VALUES
+(1, 'Rio de Janeiro'),
+(2, 'Espírito Santo'),
+(3, 'São Paulo'),
+(4, 'Minas Gerais'),
+(5, 'Bahia'),
+(6, 'Nova Iorque'),
+(7, 'Massachusetts'),
+(8, 'São Francisco'),
+(9, 'Washington'),
+(10, 'Califórnia');
+
+/* Consulta de Dados presentes na Tabela Estado */
+select * from ESTADO;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela País */
+CREATE TABLE PAIS (
+COD_pais INTEGER PRIMARY KEY,
+Descricao VARCHAR(30)
+);
+
+/* Inserção de dados na tabela País */  
+INSERT INTO PAIS (COD_pais, Descricao) VALUES
+(1, 'Alemanha'),
+(2, 'Brasil'),
+(3, 'Canadá'),
+(4, 'Dinamarca'),
+(5, 'Estados Unidos'),
+(6, 'Finlândia'),
+(7, 'França'),
+(8, 'Grécia'),
+(9, 'Índia'),
+(10, 'Japão');
+
+/* Consulta de Dados presentes na Tabela País */
+select * from PAIS;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela CEP */
+CREATE TABLE CEP (
+cep INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
+
+/* Inserção de dados na tabela CEP */  
+INSERT INTO CEP (cep) VALUES
+(29160368),
+(02325),
+(29901422),
+(41510808),
+(30077),
+(15090470),
+(41750530),
+(21340250),
+(14721),
+(38401184);
+
+/* Consulta de Dados presentes na Tabela CEP */
+select * from CEP;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Bairro */
+CREATE TABLE BAIRRO (
+COD_bairro INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Descricao VARCHAR(25)
+);
+
+/* Inserção de dados na tabela Bairro */  
+INSERT INTO BAIRRO (COD_bairro, Descricao) VALUES
+(1, 'Bairro 01'),
+(2, 'Bairro 02'),
+(3, 'Bairro 03'),
+(4, 'Bairro 04'),
+(5, 'Bairro 05'),
+(6, 'Bairro 06'),
+(7, 'Bairro 07'),
+(8, 'Bairro 08'),
+(9, 'Bairro 09'),
+(10, 'Bairro 10');
+
+/* Consulta de Dados presentes na Tabela Bairro */
+select * from BAIRRO;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Cidade */
+CREATE TABLE CIDADE (
+COD_cidade INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Descricao VARCHAR(50)
+);
+
+/* Inserção de dados na tabela Cidade */  
+INSERT INTO CIDADE (COD_cidade, Descricao) VALUES
+(1, 'Cidade 01'),
+(2, 'Cidade 02'),
+(3, 'Cidade 03'),
+(4, 'Cidade 04'),
+(5, 'Cidade 05'),
+(6, 'Cidade 06'),
+(7, 'Cidade 07'),
+(8, 'Cidade 08'),
+(9, 'Cidade 09'),
+(10, 'Cidade 10'); 
+
+/* Consulta de Dados presentes na Tabela Cidade */
+select * from CIDADE;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Rua */
+CREATE TABLE Rua (
+cod_rua INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Descricao VARCHAR(150),
+cep INTEGER,
+FOREIGN KEY(cep) REFERENCES CEP (cep)
+);
+
+/* Inserção de dados na tabela Rua */  
+INSERT INTO Rua (COD_rua, Descricao, cep) VALUES
+(1, 'Rua 01', 29160368),
+(2, 'Rua 02', 02325),
+(3, 'Rua 03', 29901422),
+(4, 'Rua 04', 41510808),
+(5, 'Rua 05', 30077),
+(6, 'Rua 06', 15090470),
+(7, 'Rua 07', 41750530),
+(8, 'Rua 08', 21340250),
+(9, 'Rua 09', 14721),
+(10, 'Rua 10', 38401184); 
+
+/* Consulta de Dados presentes na Tabela Rua */
+select * from Rua;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Endereço */
+CREATE TABLE ENDERECO (
+COD_endereco INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+COD_pais INTEGER,
+COD_estado INTEGER,
+COD_cidade INTEGER,
+COD_bairro INTEGER,
+COD_rua INTEGER,
+Numero VARCHAR(6),
+FOREIGN KEY(COD_bairro) REFERENCES BAIRRO (COD_bairro),
+FOREIGN KEY(COD_estado) REFERENCES ESTADO (COD_estado),
+FOREIGN KEY(COD_pais) REFERENCES PAIS (COD_pais)
+);
+
+/* Inserção de dados na tabela Endereço */  
+INSERT INTO ENDERECO (COD_endereco, COD_pais, COD_estado, COD_cidade, COD_bairro, COD_rua, Numero) VALUES
+(1, 2, 2, 10, 5, 6, 11),
+(2, 5, 2, 9, 4, 5, 21), 
+(3, 2, 1, 8, 3, 1, 31),
+(4, 2, 9, 7, 2, 8, 41),
+(5, 5, 7, 6, 1, 9, 51),
+(6, 2, 7, 1, 10, 10, 61),
+(7, 2, 7, 2, 9, 3, 71),
+(8, 2, 1, 3, 8, 7, 81),
+(9, 5, 5, 4, 7, 2, 91),
+(10, 2, 1, 5, 6, 4, 101);
+
+/* Consulta de Dados presentes na Tabela Endereço */
+select * from ENDERECO;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Nome */
+CREATE TABLE Nome (
+Nome_PK INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+COD_Usuario_FK INTEGER,
+NomeCompleto VARCHAR(50),
+NomeArtistico VARCHAR(30),
+Apelido VARCHAR(25),
+FOREIGN KEY(COD_Usuario_FK) REFERENCES USUARIO (COD_Usuario)
+);
+
+/* Inserção de dados na tabela Nome */  
+INSERT INTO Nome (Nome_PK, COD_Usuario_FK, NomeCompleto, NomeArtistico, Apelido) VALUES
+(1, 1, 'Luana Emiliano Ferreira', null, null),
+(2, 2, 'Juliana Rangel Roque', null, 'Xuxu'),
+(3, 3, 'Luiz Carlos Picolé', 'Picolé', null),
+(4, 4, 'Sidnei Amaro', 'Sidnei Amaro', 'Sid'),
+(5, 5, 'Flavio Lira', 'Flavio Lira', 'Lira'),
+(6, 6, 'Julio Santo', 'Julio Santo' ,'Nego Santo'),
+(7, 7, 'Eduardo Mercuri', 'Eduardo Mercuri', 'Edu'),
+(8, 8, 'Pedro Felipe Amaro', 'Pedro Felipe', 'Gringo'),
+(9, 9, 'Daniel Ventura', 'Dan Ventura', 'Dan'),
+(10, 10, 'Matheus Reis Amaro', 'Matheus Reis', 'Math');
+
+/* Consulta de Dados presentes na Tabela Nome */
+select * from Nome;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Favorita */
+CREATE TABLE FAVORITA (
+COD_Musica INTEGER,
+COD_Usuario INTEGER,
+FOREIGN KEY(COD_Musica) REFERENCES MUSICA (COD_Musica),
+FOREIGN KEY(COD_Usuario) REFERENCES USUARIO (COD_Usuario)
+);
+
+/* Inserção de dados na tabela Favorita */  
+INSERT INTO FAVORITA (COD_Musica, COD_Usuario) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10);
+
+/* Consulta de Dados presentes na Tabela Favorita */
+select * from FAVORITA;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela ENVIA */
+CREATE TABLE ENVIA (
+COD_Envio INTEGER PRIMARY KEY,
+DataDeEnvio VARCHAR(10),
+COD_Musica INTEGER,
+COD_Usuario INTEGER,
+FOREIGN KEY(COD_Musica) REFERENCES MUSICA (COD_Musica),
+FOREIGN KEY(COD_Usuario) REFERENCES USUARIO (COD_Usuario)
+);
+
+/* Inserção de dados na tabela Envia */  
+INSERT INTO ENVIA (COD_Envio, DataDeEnvio, COD_Musica, COD_Usuario) VALUES
+(1, '15-03-2016', 1, 3),
+(2, '16-08-2016',2, 2),
+(3, '17-01-2016',3, 2),
+(4, '18-12-2016',4, 5),
+(5, '19-06-2016',5, 2),
+(6, '20-11-2016',6, 8),
+(7, '21-09-2016',7, 2),
+(8, '22-08-2016',8, 7),
+(9, '23-06-2016',9, 2),
+(10, '24-07-2016',10, 4);
+
+
+/* Consulta de Dados presentes na Tabela Envia */
+select * from ENVIA;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Possui */
+CREATE TABLE POSSUI (
+COD_Usuario INTEGER,
+COD_Tipo INTEGER,
+FOREIGN KEY(COD_Tipo) REFERENCES TipoDeUsuario (COD_Tipo),
+FOREIGN KEY(COD_Usuario) REFERENCES USUARIO (COD_Usuario)
+);
+
+/* Inserção de dados na tabela Possui */  
+INSERT INTO POSSUI (COD_Usuario, COD_Tipo) VALUES
+(1, 1),
+(2, 1),
+(3, 3),
+(4, 4),
+(5, 4),
+(6, 4),
+(7, 4),
+(8, 3),
+(9, 2),
+(10, 2);
+
+/* Consulta de Dados presentes na Tabela Possui */
+select * from POSSUI;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Pertence */
+CREATE TABLE PERTENCE (
+COD_Musica INTEGER,
+COD_Genero INTEGER,
+FOREIGN KEY(COD_Musica) REFERENCES MUSICA (COD_Musica),
+FOREIGN KEY(COD_Genero) REFERENCES GENERO (COD_Genero)
+);
+
+/* Inserção de dados na tabela Pertence */  
+INSERT INTO PERTENCE (COD_Musica, COD_Genero) VALUES
+(1, 5),
+(2, 9),
+(3, 3),
+(4, 5),
+(5, 7),
+(6, 7),
+(7, 3),
+(8, 8),
+(9, 2),
+(10, 3);
+
+/* Consulta de Dados presentes na Tabela Pertence */
+select * from PERTENCE;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Intterpretada */
+CREATE TABLE INTERPRETADA (
+COD_Musica INTEGER,
+COD_Cantor INTEGER,
+Gravacao VARCHAR(10),
+FOREIGN KEY(COD_Musica) REFERENCES MUSICA (COD_Musica),
+FOREIGN KEY(COD_Cantor) REFERENCES CANTOR (COD_Cantor)
+);
+
+INSERT INTO INTERPRETADA (COD_Musica, COD_Cantor, Gravacao) VALUES
+(1, 1, '15-03-2013'),
+(2, 2, '16-08-2012'),
+(2, 3, '16-08-2012'),
+(1, 1, '15-03-2013'),
+(3, 3, '17-01-2011'),
+(4, 8, '18-12-2013'),
+(5, 3, '19-06-2011'),
+(6, 7, '20-11-2014'),
+(7, null, '21-09-2015'),
+(10, 9, '24-07-2000');
+
+/* Consulta de Dados presentes na Tabela Interpretada */
+select * from INTERPRETADA;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Composta */
+CREATE TABLE COMPOSTA (
+COD_Musica INTEGER,
+COD_Compositor INTEGER,
+DataDaComposicao VARCHAR(10),
+FOREIGN KEY(COD_Musica) REFERENCES MUSICA (COD_Musica),
+FOREIGN KEY(COD_Compositor) REFERENCES COMPOSITOR (COD_Compositor)
+);
+
+INSERT INTO COMPOSTA (COD_Musica, COD_Compositor, DataDaComposicao) VALUES
+(1, 6, '15-03-2005'),
+(2, 9, '16-08-2009'),
+(3, 5, '17-01-2011'),
+(4, 6, '18-12-2010'),
+(5, 4, '19-06-2001'),
+(6, 3, '20-11-1993'),
+(7, 2, '21-09-1998'),
+(8, 2, '22-08-1991'),
+(9, 1, '23-06-2000'),
+(10, 4, '24-07-1991');
+
+/* Consulta de Dados presentes na Tabela COMPOSTA */
+select * from COMPOSTA;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Criação  da Tabela Contem */
+CREATE TABLE CONTEM (
+COD_Usuario INTEGER,
+COD_Contato INTEGER,
+FOREIGN KEY(COD_Usuario) REFERENCES USUARIO (COD_Usuario),
+FOREIGN KEY(COD_Contato) REFERENCES Contato (COD_Contato)
+);
+
+/* Inserção de dados na tabela Contem */  
+INSERT INTO CONTEM (COD_Usuario, COD_Contato) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 1),
+(7, 2),
+(8, 3),
+(9, 4),
+(10, 5);
+
+/* Consulta de Dados presentes na Tabela Contem */
+select * from CONTEM;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+ALTER TABLE USUARIO ADD FOREIGN KEY(COD_Genero) REFERENCES GENERO (COD_Genero);
+ALTER TABLE USUARIO ADD FOREIGN KEY(COD_endereco) REFERENCES ENDERECO (COD_endereco);
+ALTER TABLE ENDERECO ADD FOREIGN KEY(COD_cidade) REFERENCES CIDADE (COD_cidade);
+ALTER TABLE ENDERECO ADD FOREIGN KEY(cod_rua) REFERENCES Rua (cod_rua);
         
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
