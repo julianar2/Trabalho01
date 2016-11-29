@@ -5,7 +5,6 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 
 ###1	COMPONENTES<br>
 Juliana Rangel Roque<br>
-Luana Emiliano Ferreira<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras e deixar acessível os nomes dos compositores de suas respectivas músicas. O projeto chama-se Músicas Brasileiras. Para ter acesso ao sistema os usuários se cadastram, e os dados solicitados são: cpf, e-mail, senha, contatos, endereço, gênero musical favorito/principal, data de nascimento, tipo de usuário, podendo ser usuário padrão, músico instrumentista, cantor ou compositor; e sexo.  <br>
