@@ -25,7 +25,7 @@ No sistema Músicas Brasileiras os usuários podem pesquisar compositores, canto
 Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras e deixar acessível os nomes dos compositores de suas respectivas músicas. O projeto chama-se Músicas Brasileiras. Para ter acesso ao sistema os usuários se cadastram, e os dados solicitados são: cpf, e-mail, senha, contatos, endereço, gênero musical favorito/principal, data de nascimento, tipo de usuário, podendo ser usuário padrão, músico instrumentista, cantor ou compositor; e sexo.  
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
+![Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
 
 
 ###5	MODELO CONCEITUAL<br>
