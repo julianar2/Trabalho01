@@ -7,6 +7,10 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 Juliana Rangel Roque<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
+Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apresentadas em sala de aula devido a música ser uma das formas de artes que está presente no cotidiano de muitas pessoas, além disto  algo . A escolha ocorreu devido ao deficit existente no Brasil de um sistemas online confiável pelo qual as pessoas possam ter acesso a informações confiáveis e corretas a respeito  
+
+é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo.
+
 Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras e deixar acessível os nomes dos compositores de suas respectivas músicas. O projeto chama-se Músicas Brasileiras. Para ter acesso ao sistema os usuários se cadastram, e os dados solicitados são: cpf, e-mail, senha, contatos, endereço, gênero musical favorito/principal, data de nascimento, tipo de usuário, podendo ser usuário padrão, músico instrumentista, cantor ou compositor; e sexo.  <br>
 
 ###3	MINI-MUNDO<br>
