@@ -14,40 +14,15 @@ Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras 
 No sistema Músicas Brasileiras os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou serdirecionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/1.png?raw=true "Title")
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/2.png?raw=true "Title")
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/3.png?raw=true "Title")
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/4.png?raw=true "Title")
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/5.png?raw=true "Title")
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/6.png?raw=true "Title")
-26
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/7.png?raw=true "Title")
-27
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/8.png?raw=true "Title")
-28
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/9.png?raw=true "Title")
-29
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/10.png?raw=true "Title")
-30
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/11.png?raw=true "Title")
-31
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/12.png?raw=true "Title")
-32
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/13.png?raw=true "Title")
-33
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/14.png?raw=true "Title")
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/conceitual.jpg)
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
 
 ####5.1 Validação do Modelo Conceitual
-   [Grupo01]: Estêvão Segatto e Mathues Lopes 
-   [Grupo02]: Kelvin Lehrback e Vinicius Martins
+   Grupo01 - EstÊvão Segatto e Mathues Lopes 
+   Grupo02 - Kelvin Kelvin Lehrback e Vinicius Martins
 
 ####5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
@@ -101,7 +76,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ###6	MODELO LÓGICO<br>
-![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/logico.jpg)<br>
+![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
 
 
 ###7	MODELO FÍSICO<br>
