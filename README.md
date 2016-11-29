@@ -30,7 +30,7 @@ Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras 
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
+![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
 
 ####5.1 Validação do Modelo Conceitual
    Grupo01 - EstÊvão Segatto e Mathues Lopes <br>
@@ -88,10 +88,10 @@ Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras 
 
 
 ###6	MODELO LÓGICO<br>
-![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
+![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
 
 ###7	MODELO FÍSICO<br>
-![Alt text] (https://github.com/julianar2/Trabalho01/blob/master/Music.sql)<br>    
+![Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Music.sql)<br>    
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
