@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 Juliana Rangel Roque<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apresentadas em sala de aula devido a música ser uma das formas de artes que está presente no cotidiano de muitas pessoas, além disto  algo . A escolha ocorreu devido ao deficit existente no Brasil de um sistemas online confiável pelo qual as pessoas possam ter acesso a informações confiáveis e corretas a respeito  
+Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apresentadas em sala de aula, devido a música ser uma das formas de artes que está presente no cotidiano de muitas pessoas. Além disso é algo que possui várias vertentes e combina vários sons e ritmos por consequÊncia tem a possibilidade de agradar a um público maior. A escolha ocorreu devido ao deficit existente no Brasil de um sistema online confiável pelo qual as pessoas possam ter acesso as informações confiáveis e corretas a respeito da composição das músicas brasileiras e dos intérpretes das mesmas.   
 
 é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo.
 
