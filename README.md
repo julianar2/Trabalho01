@@ -20,7 +20,7 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
+![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-OKAY.jpg)
 
 ####5.1 Validação do Modelo Conceitual
    Grupo01 - EstÊvão Segatto e Mathues Lopes <br>
@@ -71,10 +71,10 @@ PAÍS: Tabela que armazena as informações relativas aos países. <br>
 
 
 ###6	MODELO LÓGICO<br>
-![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
+![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-OKAY.jpg)<br>
 
 ###7	MODELO FÍSICO<br>
-![Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Music.sql)<br>    
+![Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Fisico%20-%20OKAY.sql)<br>    
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
