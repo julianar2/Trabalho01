@@ -47,34 +47,27 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
     i) Link Youtube: em nosso projeto optamos por um campo comum, pois foi preferível o campo código como chave. Pois o campo Link Youtube direciona apenas o caminho da música no Youtube.<br>
 
 ####5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    USUÁRIO: Tabela que armazena as informações relativas aos usuários.<br>
-        CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-        Nome:campo que armazena o nome completo, nome artísitco e/ou apelido do usuário.<br>
-        Contato:campo que armazena os contatos e os tipos de contatos de cada usuário.<br>
-        Sexo:campo que armazena o sexo do usuário.<br>
-        Login:campo que armazena o login do usuário.<br>
-        Senha:campo que armazena a senha do usuário.<br>
-        Tipo de Usuário:campo que armazena o tipo do usuário.<br>
-        Código da Música:campo que armazena o código da música enviada pelo usuário.<br>
-        Endereço:campo que armazena as informações completa do endereço do usuário.<br>
-    MÚSICA: Tabela que armazena as informações relativas as músicas.<br>
-        Código da Música:campo que armazena o código da música.<br>
-        Nome da Música:campo que armazena o nome da música.<br>
-        Link Youtube:campo que armazena o link do Youtube.<br>
-    CANTOR:Tabela que armazena as informações relativas aos cantores.<br>
-        Código do Cantor:campo que armazena o código do cantor.<br>
-        Nome do Cantor:campo que armazena o nome do cantor.<br>
-    COMPOSITOR:Tabela que armazena as informações relativas aos compositores.<br>
-        Código do Compositor:campo que armazena o código do compositor.<br>
-        Nome do Compositor:campo que armazena o nome do compositor.<br>
-    GÊNERO:Tabela que armazena as informações relativas aos gêneros.<br>
-        Código do gênero:campo que armazena o código do gênero.<br>
-        Nome do Compositor:campo que armazena o nome do gênero.<br>
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+  
+NOME: Tabela que armazena as informações relativas aos nomes de identificação que o usuário pode utilizar.<br>
+    COD_Nome: Tabela que armazena as informações relativas <br>
+
+TIPO DE ID: Tabela que armazena as informações relativas ao tipo de identificação que o usuário pode utilizar. <br>
+USUARIO: Tabela que armazena as informações relativas ao usuário.<br>
+TIPO DE USUÁRIO: Tabela que armazena as informações relativas aos tipos de usuários. <br>
+MÚSICA: Tabela que armazena as informações relativas as música. <br>
+GÊNERO: Tabela que armazena as informações relativas aos gêneros. <br>
+CANTOR: Tabela que armazena as informações relativas aos cantores. <br>
+COMPOSITOR: Tabela que armazena as informações relativas aos compositores. <br>
+CONTATO: Tabela que armazena as informações relativas aos contatos. <br>
+TIPO DE CONTATO: Tabela que armazena as informações relativas aos tipos de contatos. <br>
+ENDEREÇO: Tabela que armazena as informações relativas aos endereços. <br>
+RUA: Tabela que armazena as informações relativas às ruas. <br>
+CEP: Tabela que armazena as informações relativas aos ceps. <br>
+BAIRRO: Tabela que armazena as informações relativas aos bairros. <br>
+CIDADE: Tabela que armazena as informações relativas <br>
+ESTADO: Tabela que armazena as informações relativas aos estados. <br>
+PAÍS: Tabela que armazena as informações relativas aos países. <br>
+
 
 
 ###6	MODELO LÓGICO<br>
