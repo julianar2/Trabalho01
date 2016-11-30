@@ -49,64 +49,66 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 ####5.3 DESCRIÇÃO DOS DADOS 
   
 TIPO DE USUÁRIO: Tabela que armazena as informações relativas aos tipos de usuários. <br>
-COD_Tipo: Campo que armazena o código único de cada tipo de usuário. <br>
-DescricaoTipo: Campo que armazena o tipo de  usuários possíveis de serem utilizados. <br>
+    COD_Tipo: Campo que armazena o código único de cada tipo de usuário. <br>
+    DescricaoTipo: Campo que armazena o tipo de  usuários possíveis de serem utilizados. <br>
 NOME: Tabela que armazena as informações relativas aos nomes de identificações que os usuários podem utilizar.<br>
-COD_Nome: Campo que armazena o código único de cada usuário. <br>
-DescricaoNome: Campo que armazena a identificação que cada usuário pode informar. <br>
+    COD_Nome: Campo que armazena o código único de cada usuário. <br>
+    DescricaoNome: Campo que armazena a identificação que cada usuário pode informar. <br>
 TIPO DE ID: Tabela que armazena as informações relativas ao tipo de identificação que o usuário pode utilizar. <br>
-COD_ID: Campo que armazena o código único de cada tipo de identificação. <br>
-DescricaoID: Campo que armazena os tipos de identificação que cada usuário pode utilizar. <br>
+    COD_ID: Campo que armazena o código único de cada tipo de identificação. <br>
+    DescricaoID: Campo que armazena os tipos de identificação que cada usuário pode utilizar. <br>
 USUARIO: Tabela que armazena as informações relativas aos usuários. <br>
-COD_Usuario: Campo que armazena o código único de cada usuário. <br>
-Login: Campo que armazena o email cadastrado que será utilizado como login de cada usuário. <br>
-Senha: Campo que armazena os oitos caracteres que formam a senha de cada usuário. <br>
-CPF: Campo que armazena o número do Cadastro de Pessoa Física de cada usuário. <br>
-Sexo: Campo que armazena o sexo de cada usuário. <br>
+    COD_Usuario: Campo que armazena o código único de cada usuário. <br>
+    Login: Campo que armazena o email cadastrado que será utilizado como login de cada usuário. <br>
+    Senha: Campo que armazena os oitos caracteres que formam a senha de cada usuário. <br>
+    CPF: Campo que armazena o número do Cadastro de Pessoa Física de cada usuário. <br>
+    Sexo: Campo que armazena o sexo de cada usuário. <br>
 MUSICA: Tabela que armazena as informações relativas às músicas. <br>
-COD_Musica: Campo que armazena o código único de cada música. <br>
-Titulo: Campo que armazena o título de cada música. <br> 
-Letra: Campo que armazena as letras de cada música. <br>
-LinkYoutube: Campo que armazena o link do youtube de cada música. <br>
+    COD_Musica: Campo que armazena o código único de cada música. <br>
+    Titulo: Campo que armazena o título de cada música. <br> 
+    Letra: Campo que armazena as letras de cada música. <br>
+    LinkYoutube: Campo que armazena o link do youtube de cada música. <br>
 CANTOR: Tabela que armazena as informações relativas aos cantores. <br>
-COD_Cantor: Campo que armazena o código único de cada cantor. <br>
-NomeCantor: Campo que armazena o nome de cada cantor. <br>
+    COD_Cantor: Campo que armazena o código único de cada cantor. <br>
+    NomeCantor: Campo que armazena o nome de cada cantor. <br>
 COMPOSITOR: Tabela que armazena as informações relativas aos compositores. <br>
-COD_Compositor: Campo que armazena o código único de cada compositor. <br>
-NomeCompositor: Campo que armazena o nome de cada compositor. <br>
+    COD_Compositor: Campo que armazena o código único de cada compositor. <br>
+    NomeCompositor: Campo que armazena o nome de cada compositor. <br>
+<br>
 Gravada: Campo que armazena quando a música foi gravada. <br>
 DataDaComposicao: Campo que armazena a data em que a música foi composta. <br>
 COD_Envio: Campo que armazena o código único de envio das músicas. <br>
 DataDeEnvio: Campo que armazena quando a música foi envida. <br>
+<br>
 CONTATO: Tabela que armazena as informações relativas aos contatos. <br>
-COD_Contato: Campo que armazena o código único de cada contato. <br>
-DescricaoContato: Campo que armazena o contato utilizado pelos usuários. <br>
+    COD_Contato: Campo que armazena o código único de cada contato. <br>
+    DescricaoContato: Campo que armazena o contato utilizado pelos usuários. <br>
 TIPO DE CONTATO: Tabela que armazena as informações relativas aos tipos de contatos. <br>
-COD_Tipo: Campo que armazena o código único de cada tipo de contato. <br>
-DescricaoTipo: Campo que armazena o tipo de contato utilizado pelos usuários. <br>
+    COD_Tipo: Campo que armazena o código único de cada tipo de contato. <br>
+    DescricaoTipo: Campo que armazena o tipo de contato utilizado pelos usuários. <br>
 GENERO: Tabela que armazena as informações relativas aos gêneros. <br>
-COD_Genero:  Campo que armazena o código único de cada gênero. <br>
-NomeDoGenero: Campo que armazena o nome de cada gênero. <br>
+    COD_Genero:  Campo que armazena o código único de cada gênero. <br>
+    NomeDoGenero: Campo que armazena o nome de cada gênero. <br>
 ENDEREÇO: Tabela que armazena as informações relativas aos endereços. <br>
-COD_endereco: Campo que armazena o código único de cada endereço. <br>
-Numero: Campo que armazena o número de cada endereço. <br>
+    COD_endereco: Campo que armazena o código único de cada endereço. <br>
+    Numero: Campo que armazena o número de cada endereço. <br>
 RUA: Tabela que armazena as informações relativas às ruas. <br>
-COD_Rua: Campo que armazena o código único de cada rua. <br>
-DescricaoRua: Campo que armazena a rua de cada endereço. <br>
+    COD_Rua: Campo que armazena o código único de cada rua. <br>
+    DescricaoRua: Campo que armazena a rua de cada endereço. <br>
 CEP: Tabela que armazena as informações relativas aos ceps. <br>
-NumCep: Campo que armazena o código de endereço postal de cada endereço. <br>
+    NumCep: Campo que armazena o código de endereço postal de cada endereço. <br>
 BAIRRO: Tabela que armazena as informações relativas aos bairros. <br>
-COD_Bairro: Campo que armazena o código único de cada bairro. <br>
-DescricaoBairro: Campo que armazena o bairro de cada endereço. <br>
+    COD_Bairro: Campo que armazena o código único de cada bairro. <br>
+    DescricaoBairro: Campo que armazena o bairro de cada endereço. <br>
 CIDADE: Tabela que armazena as informações relativas às cidades. <br>
-COD_Cidade: Campo que armazena o código único de cada cidade. <br>
-DescricaoCidade: Campo que armazena a cidade de cada endereço. <br>
+    COD_Cidade: Campo que armazena o código único de cada cidade. <br>
+    DescricaoCidade: Campo que armazena a cidade de cada endereço. <br>
 ESTADO: Tabela que armazena as informações relativas aos estados. <br>
-COD_Estado: Campo que armazena o código único de cada estado. <br>
-DescricaoEstado: Campo que armazena o estado de cada endereço. <br>
+    COD_Estado: Campo que armazena o código único de cada estado. <br>
+    DescricaoEstado: Campo que armazena o estado de cada endereço. <br>
 PAIS: Tabela que armazena as informações relativas aos países. <br>
-COD_pais: Campo que armazena o código único de cada país. <br>
-DescricaoPais: Campo que armazena o país de cada endereço. <br>
+    COD_pais: Campo que armazena o código único de cada país. <br>
+    DescricaoPais: Campo que armazena o país de cada endereço. <br>
 
 ###6	MODELO LÓGICO<br>
 ![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-OKAY.jpg)<br>
