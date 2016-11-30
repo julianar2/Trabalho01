@@ -11,19 +11,9 @@ Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apre
 
 ###3	MINI-MUNDO<br>
 
-Música Brasileira é um sistema de dados online pelo qual será possível ter acesso às informações verídicas sobre as músicas escritas, produzidas e gravadas no Brasil.
-Este sistema será alimentado e retroalimentado pelos usuários, tendo que ter a aprovação dos administradores do sistema. <br>
-Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista.
-Uma música poderá ser escrita 
-
-
-No sistema Músicas Brasileiras os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou serdirecionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
-
-
-é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo.
-
-Este projeto foi escolhido com o intuito de centralizar as músicas brasileiras e deixar acessível os nomes dos compositores de suas respectivas músicas. O projeto chama-se Músicas Brasileiras. Para ter acesso ao sistema os usuários se cadastram, e os dados solicitados são: cpf, e-mail, senha, contatos, endereço, gênero musical favorito/principal, data de nascimento, tipo de usuário, podendo ser usuário padrão, músico instrumentista, cantor ou compositor; e sexo.  
-
+Música Brasileira é um sistema de dados online pelo qual será possível ter acesso às informações verídicas sobre as músicas escritas, produzidas e gravadas no Brasil. Este sistema será alimentado e retroalimentado pelos usuários, tendo que ter a aprovação dos administradores do sistema. 
+Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. Uma música poderá ser escrita por um ou alguns compositores além de poder ser gravada por um ou vários cantores. Os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou ser direcionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
+ 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
 
