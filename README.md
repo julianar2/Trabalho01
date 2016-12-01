@@ -23,28 +23,11 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 ![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-OKAY.jpg)
 
 ####5.1 Validação do Modelo Conceitual
-   Grupo01 - EstÊvão Segatto e Mathues Lopes <br>
+   Grupo01 - Estêvão Segatto e Mathues Lopes <br>
    Grupo02 - Kelvin Kelvin Lehrback e Vinicius Martins <br>
 
 ####5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
-    a) CPF: em nosso projeto optamos por um campo chave, pois cada usário possui um número diferente.<br>
-    b) Nome: em nosso projeto optamos por um campo comum, exceto na tabela usuário que é um campo multivalorado pois o usuái pode ter nome completo, artistíco e apelido.<br> 
-    C) Sexo: em nosso projeto optamos por um campo comum, pois pode haver o mesmo sexo para mais de um usuário.<br>
-    d) Login: em nosso projeto optamos por um campo comum, pois o campo código é de mais fácil filtragem.<br>
-    e) Senha: em nosso projeto optamos por um campo comum, pois pode haver a mesma senha pra mais de um login.<br>
-    f) Tipo de Usuário: em nosso projeto optamos por um campo comum, pois pode haver o mesmo tipo de usuário pra mais de um usuário.<br>
-    g) Código: em nosso projeto optamos por um campo chave, por ser único.<br>
-    h) Endereço: em nosso projeto optamos por um campo composto, pois o endereço é composto por vários atributos.<br>
-    i) Link Youtube: em nosso projeto optamos por um campo comum, pois foi preferível o campo código como chave. Pois o campo Link Youtube direciona apenas o caminho da música no Youtube.<br>
+
 
 ####5.3 DESCRIÇÃO DOS DADOS 
   
