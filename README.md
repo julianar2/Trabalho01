@@ -127,105 +127,105 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 /* Consulta de Dados presentes na Tabela Compositor */<br>
-**select * from COMPOSITOR;**<br>
+select * from COMPOSITOR;<br>
 ![Compositor](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Compositor.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Contato */<br>
-**select * from Contato;**<br>
+select * from Contato;<br>
 ![Contato](https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Contato.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Cantor */<br>
-**select * from CANTOR;**<br>
+select * from CANTOR;<br>
 ![Cantor](https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Cantor.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Envia */<br>
-**select * from ENVIA;**<br>
+select * from ENVIA;<br>
 ![Envia](https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Envia.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Pertence */<br>
-**select * from PERTENCE;**<br>
+select * from PERTENCE;<br>
 ![Pertence](https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Pertence.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela TipoContato */<br>
-**select * from TipoContato;**<br>
+select * from TipoContato;<br>
 ![Tipo de Contato](https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20contato.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela COMPOSTA */<br>
-**select * from COMPOSTA;**<br>
+select * from COMPOSTA;<br>
 ![Composta](https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Composta.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Contem */<br>
-**select * from CONTEM;**<br>
+select * from CONTEM;<br>
 ![Contem](https://github.com/julianar2/Trabalho01/blob/master/08%20-%20Contem.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela País */<br>
-**select * from PAIS;**<br>
+select * from PAIS;<br>
 ![Pais](https://github.com/julianar2/Trabalho01/blob/master/09%20-%20Pais.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Gênero */<br>
-**select * from GENERO;**<br>
+select * from GENERO;<br>
 ![Genero](https://github.com/julianar2/Trabalho01/blob/master/10%20-%20Genero.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Possui */<br>
-**select * from POSSUI;**<br>
+select * from POSSUI;<br>
 ![Possui](https://github.com/julianar2/Trabalho01/blob/master/11%20-%20Possui.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela TipoDeUsuario */<br>
-**select * from TipoDeUsuario;**<br>
+select * from TipoDeUsuario;<br>
 ![Tipo de Usuario](https://github.com/julianar2/Trabalho01/blob/master/12%20-%20Tipo%20de%20Usuario.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela SeIdentifica */<br>
-**select * from SeIdentifica;**<br>
+select * from SeIdentifica;<br>
 ![Se Identifica](https://github.com/julianar2/Trabalho01/blob/master/13%20-%20SeIdentifica.jpg)<br>
 ![Se Identifica2](https://github.com/julianar2/Trabalho01/blob/master/13%20-%20SeIdentifica2.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Usuário */<br>
-**select * from USUARIO;**<br>
+select * from USUARIO;<br>
 ![Usuario](https://github.com/julianar2/Trabalho01/blob/master/14%20-%20Usuario.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Nome */<br>
-**select * from Nome;**<br>
+select * from Nome;<br>
 ![Nome](https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Nome.jpg)<br>
 ![Nome2](https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Nome2.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Tipo ID */<br>
-**select * from TipoDeID;**<br>
+select * from TipoDeID;<br>
 ![Tipo ID](https://github.com/julianar2/Trabalho01/blob/master/16%20-%20Tipo%20de%20ID.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Favorita */<br>
-**select * from FAVORITA;**<br>
+select * from FAVORITA;<br>
 ![Favorita](https://github.com/julianar2/Trabalho01/blob/master/17%20-%20Favorita.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Música */<br>
-**select * from MUSICA;**<br>
+select * from MUSICA;<br>
 ![Musica](https://github.com/julianar2/Trabalho01/blob/master/18%20-%20Musica.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Interpretada */<br>
-**select * from INTERPRETADA;**<br>
+select * from INTERPRETADA;<br>
 ![Interpretada](https://github.com/julianar2/Trabalho01/blob/master/19%20-%20Interpretada.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Endereço */<br>
-**select * from ENDERECO;**<br>
+select * from ENDERECO;<br>
 ![Endereco](https://github.com/julianar2/Trabalho01/blob/master/20%20-%20Endereco.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Rua */<br>
-**select * from Rua;**<br>
+select * from Rua;<br>
 ![Rua](https://github.com/julianar2/Trabalho01/blob/master/21%20-%20Rua.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela CEP */<br>
-**select * from CEP;**<br>
+select * from CEP;<br>
 ![Cep](https://github.com/julianar2/Trabalho01/blob/master/22%20-%20Cep.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Cidade */<br>
-**select * from CIDADE;**<br>
+select * from CIDADE;<br>
 ![Cidade](https://github.com/julianar2/Trabalho01/blob/master/23%20-%20Cidade.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Estado */<br>
-**select * from ESTADO;**<br>
+select * from ESTADO;<br>
 ![Estado](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Estado.jpg)<br>
 
 /* Consulta de Dados presentes na Tabela Bairro */<br>
-**select * from BAIRRO;**<br>
+select * from BAIRRO;<br>
 ![Bairro](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Bairro.jpg)<br>
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
