@@ -5,6 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 
 ###1	COMPONENTES<br>
 Juliana Rangel Roque<br>
+Luana Emiliano Ferreira<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apresentadas em sala de aula, devido a música ser uma das formas de artes que está presente no cotidiano de muitas pessoas. Além disso é algo que possui várias vertentes e combina vários sons e ritmos por consequÊncia tem a possibilidade de agradar a um público maior. A escolha ocorreu devido ao deficit existente no Brasil de um sistema online confiável pelo qual as pessoas possam ter acesso as informações confiáveis e corretas a respeito da composição das músicas brasileiras e dos intérpretes das mesmas.<br>
@@ -23,8 +24,8 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 ![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-OKAY.jpg)
 
 ####5.1 Validação do Modelo Conceitual
-   Grupo01 - Estêvão Segatto e Mathues Lopes <br>
-   Grupo02 - Kelvin Kelvin Lehrback e Vinicius Martins <br>
+   Grupo01 - Estêvão Segatto Vieira e Matheus Lopes da Costa Abreu <br>
+   Grupo02 - Kelvin Lehrback Guilherme e Vinicius Barbosa Martins <br>
 
 ####5.2 DECISÕES DE PROJETO
 
