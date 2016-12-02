@@ -121,9 +121,21 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+/* Consulta de Dados presentes na Tabela Compositor */<br>
+select * from COMPOSITOR;<br>
+![Compositor](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Compositor.jpg)<br>
+
+/* Consulta de Dados presentes na Tabela Contato */<br>
+select * from Contato;<br>
+![Contato](https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Contato.jpg)<br>
+
+
+-----*******----------------------*********<br>
 /* Consulta de Dados presentes na Tabela Música */<br>
 select * from MUSICA;<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png)<br>
+
+
 
 /* Consulta de Dados presentes na Tabela Usuário */<br>
 select * from USUARIO;<br>
@@ -137,17 +149,13 @@ select * from TipoDeUsuario;<br>
 select * from CANTOR;<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png)<br>
 
-/* Consulta de Dados presentes na Tabela Compositor */<br>
-select * from COMPOSITOR;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png)<br>
+
 
 /* Consulta de Dados presentes na Tabela TipoContato */<br>
 select * from TipoContato;<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png)<br>
 
-/* Consulta de Dados presentes na Tabela Contato */<br>
-select * from Contato;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Contato.png)<br>
+
 
 /* Consulta de Dados presentes na Tabela Gênero */<br>
 select * from GENERO;<br>
