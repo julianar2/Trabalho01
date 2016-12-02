@@ -110,13 +110,14 @@ DataDeEnvio: Campo que armazena quando a música foi envida. <br>
         Materiais da Disciplina de Bando de Dados
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD<br> 
-        ![Criação de Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20A.sql)<br>   
-        
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        ![Inserção de dados na Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20B.sql)<br>  
-        
-        c) inclusão das instruções para execução de outros procedimentos necessários
+a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD<br>
+![Criação de Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20A.sql)<br> 
+
+b) inclusão das instruções de inserção dos dados nas referidas tabelas <br>
+![Inserção de dados na Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20B.sql)<br>  
+
+c) inclusão das instruções para execução de outros procedimentos necessários <br>
+
 
 
         
