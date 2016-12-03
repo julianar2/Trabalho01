@@ -333,11 +333,28 @@ delete from nome where cod_nome = 19;<br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
+<br>
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
+**select COD_Musica,Titulo from musica group by titulo;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%201.jpg)<br>
+<br>
+**select Login, Senha, CPF from usuario group by CPF;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%202.jpg)<br>
+<br>
+**select COD_Usuario, Sexo from usuario group by Sexo;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%203.jpg)<br>
+<br>
+**select COD_Compositor, NomeCompositor from compositor group by NomeCompositor;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%204.jpg)<br>
+<br>
+**select COD_Cantor, NomeCantor from cantor group by NomeCantor;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%205.jpg)<br>
+<br>
+**select COD_Cantor COUNT from interpretada group by cod_musica;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%206.jpg)<br>
+<br>
 
-        Entrega até este ponto em 08/11/2016
-        
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
