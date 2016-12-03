@@ -301,7 +301,7 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%205.jpg)<br>
 <br>
 
-####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+####9.4	CONSULTAS QUE USAM OPERADORES LIKE <br>
 
 **select * from nome where DescricaoNome like 'j%';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%201.jpg)<br>
@@ -316,7 +316,7 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%204.jpg)<br>
 <br>
 
-####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS <br>
 
 update nome set descricaonome = 'Luiz Picolé' where COD_Nome = 16;<br>
 update nome set descricaonome = 'FlaLira' where COD_Nome = 12;<br>
@@ -334,7 +334,7 @@ delete from nome where cod_nome = 19;<br>
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
 <br>
-####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+####9.7	CONSULTAS COM GROUP BY <br>
 
 **select COD_Musica,Titulo from musica group by titulo;** <br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%201.jpg)<br>
@@ -355,7 +355,22 @@ delete from nome where cod_nome = 19;<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/31%20-%20Consulta%206.jpg)<br>
 <br>
 
-####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+####9.8	CONSULTAS COM LEFT E RIGHT JOIN  <br>
+
+**Select usuario.login, descricaocontato,cod_tipo from contato right outer join usuario on (usuario.login = contato.descricaocontato);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/32%20-%20Consulta%201.jpg)<br>
+<br>
+**Select usuario.login, descricaocontato,cod_tipo from contato left outer join usuario on (usuario.login = contato.descricaocontato);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/32%20-%20Consulta%202.jpg)<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/32%20-%20Consulta%203.jpg)<br>
+<br>
+**Select compositor.NomeCompositor, nomecantor from cantor right outer join compositor on (compositor.NomeCompositor = nomecantor);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/32%20-%20Consulta%204.jpg)<br>
+<br>
+**Select compositor.NomeCompositor, nomecantor from cantor left outer join compositor on (compositor.NomeCompositor = nomecantor);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/32%20-%20Consulta%205.jpg)<br>
+<br>
+
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 
