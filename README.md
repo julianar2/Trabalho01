@@ -245,16 +245,17 @@ select * from BAIRRO;<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 /*CONSULTAS DAS TABELAS COM FILTROS WHERE*/<br>
-select * from usuario where sexo = 'feminino';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%201.png)<br>
-select * from nome where apelido is not null;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%202.png)<br>
-select * from contato where descricaocontato = 'facebook'; <br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%203.png)<br>
-select * from contato where cod_tipo = 4;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%204.png)<br>
+
+select * from usuario where sexo = 'F';<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.jpg)<br>
+select * from usuario where sexo = 'M';<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.jpg)<br>
+select * from musica where titulo = 'Refém';<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.jpg)<br>
+select * from interpretada where gravada = '16-08-2012'; <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.jpg)<br>
 select * from envia where cod_usuario = 2;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%205.png)<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%205.jpg)<br>
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
