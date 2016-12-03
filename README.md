@@ -281,35 +281,37 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 <br>
 **select * from envia where cod_usuario = 2;**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%205.jpg)<br>
+<br>
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS <br>
 
-**select * from endereco where COD_pais = 2 and COD_estado = 7;**
+**select * from endereco where COD_pais = 2 and COD_estado = 7;**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.jpg)<br>
 <br>
-**select * from interpretada where Gravada > "01-02-2012";**
+**select * from interpretada where Gravada > "01-02-2012";**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.jpg)<br>
 <br>
-**select * from endereco where cod_pais = 5 or COD_estado = 1; **
+**select * from endereco where cod_pais = 5 or COD_estado = 1; **<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%203.jpg)<br>
 <br>
-**select LinkYoutube from musica where Titulo ='Refém';**
+**select LinkYoutube from musica where Titulo ='Refém';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%204.jpg)<br>
 <br>
-**select CPF from usuario where COD_Genero = 1;**
+**select CPF from usuario where COD_Genero = 1;**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%205.jpg)<br>
-
+<br>
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
-/*CONSULTAS QUE USAM OPERADORES LIKE*/<br>
-select * from nome where nomecompleto like 'j%';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.png)<br>
-select * from nome where nomecompleto like '%amaro%';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png)<br>
-select * from nome where nomecompleto like '%amaro%' and apelido = 'gringo';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png)<br>
-select * from rua where cep like '29%';,br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png)<br>
+
+**select * from nome where DescricaoNome like 'j%';**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%201.jpg)<br>
+**select * from nome where DescricaoNome like '%amaro%';**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%202.jpg)<br>
+**select * from contato where descricaocontato like 'juliana%' and cod_tipo = 5;**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%203.jpg)<br>
+**select * from genero WHERE nomedogenero LIKE binary 'R%';**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%204.jpg)<br>
+<br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
