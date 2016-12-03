@@ -29,7 +29,7 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 
 ####5.2 DECISÕES DE PROJETO
 
-Neste projeto as opções escolhidas seguem abaixo:
+Neste projeto as opções escolhidas seguem abaixo: <br>
 **USUARIO:** A tabela de Usuário contém COD_Usuario, Login, Senha, CPF e Sexo. <br>
 COD_Usuario: Um campo que é chave primária, devido a cada usuário possuir um código de usuário distinto dos outros. <br>
 Login: Um campo comum, pois armazena o email cadastrado que será utilizado como login de cada usuário. <br>
