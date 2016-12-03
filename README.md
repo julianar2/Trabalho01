@@ -318,18 +318,18 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
-/*ATUALIZAÇÃO E EXCLUSÃO DE DADOS*/<br>
-update nome set apelido = 'Lu' where nome_pk = 1;<br>
-update nome set NomeArtistico = 'Luemily' where apelido = 'Lu';<br>
-update nome set NomeArtistico = 'Juliana Roque' where COD_Usuario_FK = 2;<br>
-update nome set NomeArtistico = 'Luiz Picolé' where COD_Usuario_FK = 3;<br>
-update nome set nomecompleto = 'Luiz Claudio Picolé' where COD_Usuario_FK = 3;<br>
-select * from nome; ,br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.png)<br>
-delete from nome where nome_pk = 1;<br>
-select * from nome; <br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.png)<br>
-
+update nome set descricaonome = 'Luiz Picolé' where COD_Nome = 16;<br>
+update nome set descricaonome = 'FlaLira' where COD_Nome = 12;<br>
+update nome set descricaonome = 'Daniel' where COD_Nome = 14;<br>
+**select * from nome;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/29%20-%20Consulta%201.jpg)<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/29%20-%20Consulta%202.jpg)<br>
+delete from nome where cod_nome = 12;<br>
+delete from nome where cod_nome = 14;<br>
+delete from nome where cod_nome = 19;<br>
+** select * from nome;** <br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/29%20-%20Consulta%203.jpg)<br>
+<br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
