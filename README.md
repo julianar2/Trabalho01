@@ -265,9 +265,7 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 <br>
 ![Bairro](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Bairro.jpg)<br>
 
-####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
-
-* CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
+####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE <br>
 
 **select * from usuario where sexo = 'F';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.jpg)<br>
@@ -284,19 +282,23 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 **select * from envia where cod_usuario = 2;**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%205.jpg)<br>
 
-####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS <br>
 
-/*CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS*/<br>
-select * from endereco where COD_pais = 2 and COD_estado = 7;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%201.png)<br>
-select * from interpretada where Gravacao > "01-02-2012";<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%202.png)<br>
-select * from endereco where cod_pais = 5 or COD_estado = 1;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%203.png)<br>
-select LinkYoutube from musica where Titulo ='Refém';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%204.png)<br>
-select CPF from usuario where COD_Genero = 1;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%205.png)<br>
+**select * from endereco where COD_pais = 2 and COD_estado = 7;**
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.jpg)<br>
+<br>
+**select * from interpretada where Gravada > "01-02-2012";**
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.jpg)<br>
+<br>
+**select * from endereco where cod_pais = 5 or COD_estado = 1; **
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%203.jpg)<br>
+<br>
+**select LinkYoutube from musica where Titulo ='Refém';**
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%204.jpg)<br>
+<br>
+**select CPF from usuario where COD_Genero = 1;**
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%205.jpg)<br>
+
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 /*CONSULTAS QUE USAM OPERADORES LIKE*/<br>
