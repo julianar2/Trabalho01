@@ -305,10 +305,13 @@ c) inclusão das instruções para execução de outros procedimentos necessári
 
 **select * from nome where DescricaoNome like 'j%';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%201.jpg)<br>
+<br>
 **select * from nome where DescricaoNome like '%amaro%';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%202.jpg)<br>
+<br>
 **select * from contato where descricaocontato like 'juliana%' and cod_tipo = 5;**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%203.jpg)<br>
+<br>
 **select * from genero WHERE nomedogenero LIKE binary 'R%';**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/28%20-%20Consulta%204.jpg)<br>
 <br>
