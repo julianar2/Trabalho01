@@ -29,6 +29,20 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 
 ####5.2 DECISÕES DE PROJETO
 
+Neste projeto as opções escolhidas seguem abaixo:
+**USUARIO:** A tabela de Usuário contém COD_Usuario, Login, Senha, CPF e Sexo. <br>
+COD_Usuario: Um campo que é chave primária, devido a cada usuário possuir um código de usuário distinto dos outros. <br>
+Login: Um campo comum, pois armazena o email cadastrado que será utilizado como login de cada usuário. <br>
+Senha: Um campo comum, pois apenas armazena a letra de cada música. <br>
+CPF: Um campo comum, pois possui o cpf de cada usuário e este é único. <br>
+Sexo: Um campo comum, pois vários usuários podem ter o mesmo sexo. <br>
+**MUSICA:** A tabela de Música contém COD_Musica, Título, Letra, LinkYoutube. <br>
+COD_Musica: Um campo que é chave primária, devido a cada código de música ser de uma música específica. <br>
+Titulo: Um campo comum, pois apenas armazena o título de cada música. <br>
+Letra: Um campo comum, pois apenas armazena a letra de cada música. <br>
+LinkYoutube: Um campo comum, pois apenas armazena o endereço da música no youtube. <br>
+
+
 
 ####5.3 DESCRIÇÃO DOS DADOS 
   
