@@ -162,12 +162,13 @@ DataDeEnvio: Campo que armazena quando a música foi envida. <br>
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
-        Materiais da Disciplina de Bando de Dados
+Detalhamento sobre as informações e processo de obtenção ou geração dos dados. Referenciar todas as fontes referentes a :
+a) obtenção dos dados<br>
+Parte dos dados utilizados são reais e o restante são fictícios. Os dados reais foram pesquisados por meio do Facebook e do google. <br>
+b) obtenção de códigos reutilizados<br>
+Não foram reutilizados códigos.<br>
+c) fontes de estudo para desenvolvimento do projeto<br>
+As refeências utilizadas no desenvolvimento deste trabalho foram os materiais da Disciplina de Bando de Dados.<br>
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD<br>
@@ -437,6 +438,7 @@ delete from nome where cod_nome = 19;<br>
 
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
+
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 **select * from musica where titulo in (select titulo from musica where titulo <> 'Refem');**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%201.jpg)<br>
@@ -456,8 +458,8 @@ delete from nome where cod_nome = 19;<br>
 ![Apresentação - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Apresentacao%20BD.pdf)
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo.
-Na utilização do MySql é que conseguir enxergar e acertar os erros cometidos (seja de digitação, lógica) <br> 
+A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo. Após esta etapa gerar o lógico e o físico básico acaba sendo mais tranquilo.
+Na utilização do MySql para desenvolver o físico a principal dificuldade foi conseguir enxergar e acertar os erros cometidos (seja de digitação, lógica) <br> 
 
 
 
