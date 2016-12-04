@@ -18,7 +18,6 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
 
-
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-OKAY.jpg)
@@ -29,7 +28,16 @@ Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. 
 
 ####5.2 DECISÕES DE PROJETO
 
-Neste projeto as opções escolhidas seguem abaixo: <br>
+Neste projeto as opções escolhidas seguem abaixo:
+**TIPO DE USUÁRIO:** A tabela Tipo de Usuário contém os atributos: COD_Tipo e DescricaoTipo. <br>
+COD_Tipo: Um campo que é chave primária, devido a cada tipo de usuário possuir um código de tipo distinto dos outros. <br>
+DescricaoTipo: Um campo comum, pois armazena o tipo de  usuários possíveis de serem utilizados. <br>
+**NOME:** A tabela Nome contém os atributos: COD_Nome e DescricaoNome. <br>
+COD_Nome: Um campo que é chave primária, devido a cada nome de identificação do usuário possuir um código de nome distinto dos outros. <br>
+DescricaoNome: Um campo comum, pois armazena a identificação que cada usuário pode informar. <br>
+**TIPO DE ID:** A tabela Tipo de ID contém os atributos: COD_ID e Descricao ID. <br>
+COD_ID: Um campo que é chave primária, devido a cada tipo de identificação usuário possuir um código de usuário distinto dos outros. <br>
+DescricaoID: Um campo comum, pois armazena os tipos de identificação que cada usuário pode utilizar. <br>
 **USUARIO:** A tabela de Usuário contém COD_Usuario, Login, Senha, CPF e Sexo. <br>
 COD_Usuario: Um campo que é chave primária, devido a cada usuário possuir um código de usuário distinto dos outros. <br>
 Login: Um campo comum, pois armazena o email cadastrado que será utilizado como login de cada usuário. <br>
@@ -41,8 +49,46 @@ COD_Musica: Um campo que é chave primária, devido a cada código de música se
 Titulo: Um campo comum, pois apenas armazena o título de cada música. <br>
 Letra: Um campo comum, pois apenas armazena a letra de cada música. <br>
 LinkYoutube: Um campo comum, pois apenas armazena o endereço da música no youtube. <br>
-
-
+**CANTOR:** A tabela de Cantor contém COD_Cantor e NomeCantor. <br>
+COD_Cantor: Um campo que é chave primária, devido a cada código de cantor ser de uma cantor específico. <br>
+NomeCantor: Um campo comum, pois apenas armazena o nome de cada cantor. <br>
+**COMPOSITOR:** A tabela de Compositor contém COD_Compositor e NomeCompositor. <br>
+COD_Compositor: Um campo que é chave primária, devido a cada código de compositor ser de um compositor específico. <br>
+NomeCompositor: Um campo comum, pois apenas armazena o nome de cada compositor. <br>
+Gravada: Um campo comum, pois apenas armazena quando a música foi gravada. <br>
+DataDaComposicao: Um campo comum, pois apenas armazena a data em que a música foi composta. <br>
+COD_Envio: Um campo comum, pois apenas armazena o código ser único de envio das músicas. <br>
+DataDeEnvio: Um campo comum, pois apenas armazena quando a música foi envida. <br>
+**CONTATO:** A tabela de Contato contém COD_Contato e DescricaoContato. <br>
+COD_Contato: Um campo que é chave primária, devido a cada código ser único de cada contato. <br>
+DescricaoContato: Um campo comum, pois apenas armazena o contato utilizado pelos usuários. <br>
+**TIPO DE CONTATO**: A tabela Tipo de Contato contém COD_Tipo e DescricaoTipo. <br>
+COD_Tipo: Um campo que é chave primária, devido a cada código ser único de cada tipo de contato. <br>
+DescricaoTipo: Um campo comum, pois apenas armazena o tipo de contato utilizado pelos usuários. <br>
+**GENERO:** A tabela de Genero contém COD_Genero e NomedoGenero. <br>
+COD_Genero:  Um campo que é chave primária, devido a cada código ser único de cada gênero. <br>
+NomeDoGenero: Um campo comum, pois apenas armazena o nome de cada gênero. <br>
+**ENDEREÇO:** A tabela de Endereco contém COD_Endereco e Numero. <br>
+COD_endereco: Um campo que é chave primária, devido a cada código ser único de cada endereço. <br>
+Numero: Um campo comum, pois apenas armazena o número de cada endereço. <br>
+RUA: A tabela de Rua contém COD_Rua e DescricaoRua. <br>
+COD_Rua: Um campo que é chave primária, devido a cada código ser único de cada rua. <br>
+DescricaoRua: Um campo comum, pois apenas armazena a rua de cada endereço. <br>
+**CEP:** A tabela de CEP contém NumCep. <br>
+NumCep: Um campo que é chave primária, devido a cada código ser de endereço postal de cada endereço. <br>
+**BAIRRO:** A tabela de Bairro contém COD_Bairro e DescricaoBairro. <br>
+COD_Bairro: Um campo que é chave primária, devido a cada código ser único de cada bairro. <br>
+DescricaoBairro: Um campo comum, pois apenas armazena o bairro de cada endereço. <br>
+**CIDADE:** A tabela de Cidade contém COD_Cidade e DescricaoCidade. <br>
+COD_Cidade: Um campo que é chave primária, devido a cada código ser único de cada cidade. <br>
+DescricaoCidade: Um campo comum, pois apenas armazena a cidade de cada endereço. <br>
+**ESTADO:** A tabela de Estado contém COD_Estado e DescricaoEstado. <br>
+COD_Estado: Um campo que é chave primária, devido a cada código ser único de cada estado. <br>
+DescricaoEstado: Um campo comum, pois apenas armazena o estado de cada endereço. <br>
+**PAIS:** A tabela de Pais contém COD_pais e DescricaoPais. <br>
+COD_pais: Um campo que é chave primária, devido a cada código ser único de cada país. <br>
+DescricaoPais: Um campo comum, pois apenas armazena o país de cada endereço. <br>
+<br>
 
 ####5.3 DESCRIÇÃO DOS DADOS 
   
