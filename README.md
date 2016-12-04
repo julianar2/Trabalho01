@@ -407,7 +407,7 @@ delete from nome where cod_nome = 19;<br>
 
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
-
+![Apresentação - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Apresentacao%20BD.pdf)
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo.
