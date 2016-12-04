@@ -372,7 +372,20 @@ delete from nome where cod_nome = 19;<br>
 <br>
 
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
+**select * from musica where titulo in (select titulo from musica where titulo <> 'Refem');**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%201.jpg)<br>
+<br>
+**select * from musica where titulo in (select titulo from musica where titulo = 'Refem');**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%202.jpg)<br>
+<br>
+**Select * from nome where COD_ID in (select COD_ID from nome where COD_ID <> 1 );**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%203.jpg)<br>
+<br>
+**Select * from nome where descricaonome in (select descricaonome from nome where descricaonome = 'xuxu' );**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%204.jpg)<br>
+<br>
 
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
