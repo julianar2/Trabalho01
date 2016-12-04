@@ -332,6 +332,24 @@ delete from nome where cod_nome = 19;<br>
 <br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+**select DescricaoContato, contato.COD_Tipo from contato inner join tipodecontato on (contato.COD_Tipo = tipodecontato.COD_Tipo);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%201.jpg)<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%202.jpg)<br>
+<br>
+**select Login, Titulo, musica.COD_Musica, usuario.COD_Usuario from favorita inner join usuario on(FAVORITA.COD_Usuario = usuario.COD_Usuario) inner join musica on(favorita.COD_Musica = musica.COD_Musica);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%203.jpg)<br>
+<br>
+**select Login, dataDeEnvio, musica.COD_Musica, usuario.COD_Usuario from envia inner join usuario on(envia.COD_Usuario = usuario.COD_Usuario) inner join musica on(envia.COD_Musica = musica.COD_Musica);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%204.jpg)<br>
+<br>
+**select Login, NomeDoGenero from usuario inner join genero on(usuario.COD_Genero = genero.COD_Genero); **<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%205.jpg)<br>
+<br>
+**select Titulo, genero.COD_Genero, musica.COD_Musica from pertence inner join genero on(pertence.COD_Genero = genero.COD_Genero) inner join musica on(pertence.COD_Musica = musica.COD_Musica);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%206.jpg)<br>
+<br>
+**select Titulo, NomeCantor, gravada, musica.COD_Musica, cantor.COD_cantor from interpretada inner join cantor on(cantor.COD_cantor = interpretada.COD_Cantor) inner join musica on(interpretada.COD_Musica = musica.COD_Musica);**<br>
+![Alt text](https://github.com/julianar2/Trabalho01/blob/master/30%20-%20Consulta%207.jpg)<br>
 
 <br>
 ####9.7	CONSULTAS COM GROUP BY <br>
@@ -395,8 +413,6 @@ delete from nome where cod_nome = 19;<br>
 A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo.
 Na utilização do MySql é que conseguir enxergar e acertar os erros cometidos (seja de digitação, lógica) <br> 
 
-        Entrega final em 22/11/2016
-###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
 
