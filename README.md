@@ -438,6 +438,11 @@ delete from nome where cod_nome = 19;<br>
 
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
+create view dados_gerais_usuarios as select nome.descricaonome,usuario.login, usuario.cpf, usuario.sexo from nome inner join usuario;<br>
+select * from dados_gerais_usuarios;<br>
+create view dados_dos_usuarios as select login, cpf, sexo from usuario;<br>
+select * from dados_dos_usuarios;<br>
+
 
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 **select * from musica where titulo in (select titulo from musica where titulo <> 'Refem');**<br>
