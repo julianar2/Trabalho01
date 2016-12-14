@@ -1,0 +1,26 @@
+import tweepy
+import BDMusic
+
+consumer_key = "20d9T5oWZb1pld8RDoYcIr6Pv"
+consumer_secret = "xTxstcaEkOfQfPMQcyXlyqNdzNwX0iO99jY07ZrtFyHFzM1tcV"
+access_token = "806173771258298373-DB8gCSyfu70gYq4aQ3rZOtRFS4xK7IP"
+access_token_secret = "Up29xfSjPnWYiCl2fSTS72wVZybsSAcTgJzeSFer0Iqkw"
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+postagem = api.search("musica")
+#print (postagem)
+
+
+for busca in postagem:
+    name = str(busca.user.screen_name)
+    local = str('teste')
+    coment = str(busca.text)
+    #consulta='''insert into ''' + BDMusic.tabela + '''(name, local, coment) values("'''+name+'''",\"'''+local+'''", "'''+coment+'''");'''
+    consulta='''insert into ''' + BDMusic.tabela + '''(name, local, coment) values(%s,%s,%s)'''
+    dados=(name,local,coment)
+    print (consulta,dados)
+    result = BDMusic.conn.execute(consulta,dados)
