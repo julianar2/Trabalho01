@@ -5,7 +5,6 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 
 ###1	COMPONENTES<br>
 Juliana Rangel Roque<br>
-Luana Emiliano Ferreira<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Música Brasileira foi o projeto escolhido, dentre as outras possibilidades apresentadas em sala de aula, devido a música ser uma das formas de artes que está presente no cotidiano de muitas pessoas. Além disso é algo que possui várias vertentes e combina vários sons e ritmos por consequÊncia tem a possibilidade de agradar a um público maior. A escolha ocorreu devido ao deficit existente no Brasil de um sistema online confiável pelo qual as pessoas possam ter acesso as informações confiáveis e corretas a respeito da composição das músicas brasileiras e dos intérpretes das mesmas.<br>
@@ -462,11 +461,17 @@ select * from dados_dos_usuarios;<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ![Apresentação - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Apresentacao%20BD.pdf)
 
+###11	TRABALHO REDES SOCIAIS<br>
+
+![main](https://github.com/julianar2/Trabalho01/blob/master/redesocialMain)
+![codigo](https://github.com/julianar2/Trabalho01/blob/master/redesocialCodigo)
+
+
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 A principal dificuldade é ter um entendimento total do modelo conceitual e ir caminhando com ele de acordo com as necessidade que vão surgindo no decorrer do processo. Após esta etapa gerar o lógico e o físico básico acaba sendo mais tranquilo.
 Na utilização do MySql para desenvolver o físico a principal dificuldade foi conseguir enxergar e acertar os erros cometidos (seja de digitação, lógica) <br> 
 
-
-
+13 FORMATACAO NO GIT: <br>
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
