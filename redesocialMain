@@ -1,0 +1,12 @@
+import MySQLdb
+from sqlalchemy import create_engine
+parametros_conexao='mysql://julianar2:julianarangelroque@julianar2.mysql.pythonanywhere-services.com/julianar2$MuiscaBrasileira?charset=utf8'
+engine = create_engine(parametros_conexao)
+conn = engine.connect()
+tabela='Infos'
+result = conn.execute('CREATE TABLE if not exists '+tabela+' (name varchar(50), local varchar (100), coment varchar(255));')
+
+#result = conn.execute('insert into '+tabela+' values(10) ;')
+#result = conn.execute('select * from '+tabela+';')
+#df = pandas.DataFrame(result.fetchall())
+#print(df)
